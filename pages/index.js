@@ -20,6 +20,10 @@ import restaurant from '../public/restaurant.png';
 import gym from '../public/gym_app.png';
 import filmpire from '../public/filmpire.png';
 
+import blog from '../public/blog.png'
+import yt from '../public/yt_clone.png'
+import prompt from '../public/prompt.png'
+
 import javascript from '../public/javascript.png';
 import typescript from '../public/typescript.png';
 import react from '../public/react.png';
@@ -283,15 +287,15 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
-                src={gym}
+                src={prompt}
               />
               <div class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                 <h1 class="text-5xl text-black dark:text-white font-bold">
-                  EVOGYM
+                  PROMPTOPIA
                 </h1>
                 <a
                   class="text-xl flex justify-center text-white items-center gap-2 mt-5 px-8 py-3 rounded-full bg-gray-900 hover:bg-teal-600 duration-300"
-                  href="https://evogym-nine.vercel.app/"
+                  href="https://promptopia-project-app.vercel.app/"
                   target="_blank"
                 >
                   <BsArrowUpRightCircleFill className="text-3xl" />
@@ -299,7 +303,7 @@ export default function Home() {
                 </a>
                 <a
                   class="text-xl text-white flex justify-center items-center mt-5 px-8 py-3 rounded-full bg-gray-500  hover:bg-amber-600 duration-300 gap-2"
-                  href="https://github.com/iamparth2002/evogym"
+                  href="https://github.com/iamparth2002/Promptopia"
                   target="_blank"
                 >
                   <AiFillGithub className="text-3xl" />
@@ -313,15 +317,15 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
-                src={real_estate}
+                src={yt}
               />
               <div class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                 <h1 class="text-5xl text-black dark:text-white font-bold">
-                  REALTOR
+                  YOUTUBE CLONE
                 </h1>
                 <a
                   class="text-xl flex justify-center text-white items-center gap-2 mt-5 px-8 py-3 rounded-full bg-gray-900 hover:bg-teal-600 duration-300"
-                  href="https://realtor-five-gamma.vercel.app/"
+                  href="https://minimalist-youtube.vercel.app/"
                   target="_blank"
                 >
                   <BsArrowUpRightCircleFill className="text-3xl" />
@@ -329,7 +333,7 @@ export default function Home() {
                 </a>
                 <a
                   class="text-xl text-white flex justify-center items-center mt-5 px-8 py-3 rounded-full bg-gray-500  hover:bg-amber-600 duration-300 gap-2"
-                  href="https://github.com/iamparth2002/realtor-next"
+                  href="https://github.com/iamparth2002/youtube_clone"
                   target="_blank"
                 >
                   <AiFillGithub className="text-3xl" />
@@ -373,15 +377,15 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout="responsive"
-                src={bank}
+                src={blog}
               />
               <div className="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                 <h1 className="text-5xl text-black dark:text-white font-bold">
-                  HOOBANK
+                  MY BLOGO
                 </h1>
                 <a
                   className="text-xl flex justify-center text-white items-center gap-2 mt-5 px-8 py-3 rounded-full bg-gray-900 hover:bg-teal-600 duration-300"
-                  href="https://hoobank-drab.vercel.app/"
+                  href="https://mern-stack-app-beta.vercel.app/"
                   target="_blank"
                 >
                   <BsArrowUpRightCircleFill className="text-3xl" />
@@ -389,7 +393,7 @@ export default function Home() {
                 </a>
                 <a
                   className="text-xl text-white flex justify-center items-center mt-5 px-8 py-3 rounded-full bg-gray-500  hover:bg-amber-600 duration-300 gap-2"
-                  href="https://github.com/iamparth2002/hoobank"
+                  href="https://github.com/iamparth2002/mern-stack-app"
                   target="_blank"
                 >
                   <AiFillGithub className="text-3xl" />
